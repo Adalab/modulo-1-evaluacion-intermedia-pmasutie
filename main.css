@@ -1,0 +1,14 @@
+:root{
+    --colorTextMenu: #4a4a4a;
+    --colorMain: #3CDBC0;
+    --colorMainText: #FFFFFF;
+    --mainFont: 'Rubik', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 62.5%;
+}
