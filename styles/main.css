@@ -20,20 +20,23 @@ html {
 /*-----------Header----------*/
 .header-container {
     height: auto;
-    position: sticky;
+    position: fixed;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--colorMainText);
 }
 .logo-container {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    margin: 10px auto;
     width: 50%;
 }
 .logo-image {
-    width: min(50vw, 155px)
+    width: min(50vw, 155px);
 }
 .header-nav {
     width: 50%;
@@ -55,7 +58,7 @@ html {
 }
 /*--------MAIN---------*/
 .main-container {
-    height: 90vh;
+    height: 100vh;
     background-color: var(--colorMain);
     position: relative;
 }
