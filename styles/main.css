@@ -55,6 +55,7 @@ html {
 .menu-anchor {
     text-decoration: none;
     color: var(--colorTextMenu);
+    padding: 15px 30px;
 }
 /*--------MAIN---------*/
 .main-container {
