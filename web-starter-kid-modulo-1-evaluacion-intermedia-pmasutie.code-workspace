@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../adalab-web-starter-kit-master/docs"
+	},
+	{
+		"path": "../../../adalab-web-starter-kit-master/src"
+	}
+],
+  "settings": {}
+}
